@@ -2,7 +2,7 @@ import re
 import outils as ot # importer les fonctions dans "outils.py"
 
 # -------------------------------- donnée nécessaire -----------------------------
-liste = []
+
 h_aspire = ["hâbler", "hacher", "hachurer", "haïr", "haler", "hâler", "haleter", "hancher", "handicaper", "hanter", "happer", "haranguer", "harasser", "harceler", "harder", "harnacher", "harpailler", "harper", "harponner", "hasarder", "hâter", "haubaner", "hausser", "haver", "havir", "héler", "hercher", "hérisser", "hérissonner", "herscher", "herser", "heurter", "hisser", "hocher", "hongrer", "hongroyer", "honnir", "hoqueter", "hotter", "houblonner", "houer", "houpper", "hourder", "hourdir", "houspiller", "hucher", "huer", "hululer", "humer", "hurler"]
 dictionary={} # pour exo 2
 
@@ -36,6 +36,7 @@ with open("dela-fr-public.dic", mode="r",encoding="UTF-16") as fd:
                 else:
                     output_f.write(phrase)
                 '''
+# ---------------------------------------- Treat conjugaison ----------------------------------
 
 
 print(dictionary["geler"])
